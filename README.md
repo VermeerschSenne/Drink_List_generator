@@ -8,14 +8,18 @@ This project is a **dynamic drink list generator** for the **ESN Bar**, created 
 - Dynamically displays the list on a webpage.
 - Includes an **ESN logo** in the header.
 - Fully customizable via **CSS and JavaScript**.
+- Includes a **Python script** to automatically sort drinks alphabetically.
 
-## 📂 Project Structure
+## 💂️ Project Structure
 ```
 ├── Drink_List.html      # Main HTML file
-├── styles.css           # CSS file for styling
+├── drinks.json          # Original unsorted drink list in JSON format
+├── ESN_logo.svg         # ESN star logo
+├── README.md            # Project documentation
 ├── script.js            # JavaScript logic for dynamic content
-├── sorted_drinks.json   # JSON file containing drink categories & items
-├── ESN_logo.svg         # ESN Leonardo Kortrijk logo
+├── sorted_drinks.json   # JSON file containing sorted drink categories & items
+├── sorting_script.py    # Python script to sort drinks.json alphabetically
+├── styles.css           # CSS file for styling
 ```
 
 ## 🚀 Getting Started
@@ -29,18 +33,13 @@ cd your-repository
 Simply open `Drink_List.html` in any modern web browser.
 
 ### 3️⃣ Modify the Drink List
-- Update `sorted_drinks.json` to add, remove, or modify drinks.
+- Update `drinks.json` to add, remove, or modify drinks.
+- Run `sorting_script.py` to sort the drinks and save them into `sorted_drinks.json`.
 - Refresh the page to see changes instantly.
 
 ## 🛠 Customization
 - To **change colors**, update the `categoryColors` array in `script.js`.
 - To modify styling, edit `styles.css`.
-
-## 🤝 Contributing
-Feel free to **fork** the repository and submit a **pull request** if you'd like to contribute!
-
-## 📜 License
-This project is open-source under the **MIT License**.
 
 ---
 Created with ❤️ by **ESN Leonardo Kortrijk**
