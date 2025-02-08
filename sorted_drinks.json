@@ -1,0 +1,124 @@
+{
+    "Alcoholic Beverages": [
+        {
+            "name": "Cactus Beer",
+            "price": 4.5
+        },
+        {
+            "name": "Cherry Beer",
+            "price": 4.5
+        },
+        {
+            "name": "Cuberdon Beer",
+            "price": 4.5
+        },
+        {
+            "name": "Heineken",
+            "price": 4.0
+        }
+    ],
+    "Soft Drinks": [
+        {
+            "name": "Coca-Cola",
+            "price": 2.5
+        },
+        {
+            "name": "Fanta",
+            "price": 2.5
+        },
+        {
+            "name": "Ginger Ale",
+            "price": 2.5
+        },
+        {
+            "name": "Ice Tea",
+            "price": 2.5
+        },
+        {
+            "name": "Sprite",
+            "price": 2.5
+        },
+        {
+            "name": "Tonic",
+            "price": 2.5
+        }
+    ],
+    "Jenever Shots": [
+        {
+            "name": "Apple",
+            "price": 1.0
+        },
+        {
+            "name": "Cactus",
+            "price": 1.0
+        },
+        {
+            "name": "Cherry",
+            "price": 1.0
+        },
+        {
+            "name": "Cuberdon",
+            "price": 1.0
+        }
+    ],
+    "Spritz": [
+        {
+            "name": "Green Apple",
+            "price": 2.0
+        },
+        {
+            "name": "Lemon",
+            "price": 2.0
+        },
+        {
+            "name": "Mango",
+            "price": 2.0
+        },
+        {
+            "name": "Passion Fruit",
+            "price": 2.0
+        },
+        {
+            "name": "Peach",
+            "price": 2.0
+        },
+        {
+            "name": "Raspberry",
+            "price": 2.0
+        },
+        {
+            "name": "Strawberry",
+            "price": 2.0
+        }
+    ],
+    "Energy Drinks": [
+        {
+            "name": "Burn",
+            "price": 3.0
+        },
+        {
+            "name": "Dark Dog",
+            "price": 3.0
+        },
+        {
+            "name": "Monster",
+            "price": 3.0
+        },
+        {
+            "name": "Nalu",
+            "price": 3.0
+        },
+        {
+            "name": "Red Bull",
+            "price": 3.0
+        },
+        {
+            "name": "Rockstar",
+            "price": 3.0
+        },
+        {
+            "name": "Toro",
+            "price": 3.0
+        }
+    ]
+}

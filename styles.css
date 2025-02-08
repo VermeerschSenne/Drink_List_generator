@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Adjust space between logo and text */
+}
+
+.esn-logo {
+    height: 50px; /* Adjust size as needed */
+    width: auto;
+}
+
+
+.drink-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.drink-category {
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.drink-category h2 {
+    margin-top: 0;
+}
+
+.drink-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.drink-item span {
+    font-weight: bold;
+}
