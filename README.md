@@ -4,11 +4,13 @@ This project is a **dynamic drink list generator** for the **ESN Bar**, created 
 
 ## ✨ Features
 - Generates drink categories and items from a structured **JSON file**.
-- Uses **custom background colors** for different drink categories.
+- Uses **custom background colours** for different drink categories.
 - Dynamically displays the list on a webpage.
 - Includes an **ESN logo** in the header.
-- Fully customizable via **CSS and JavaScript**.
+- Fully customisable via **CSS and JavaScript**.
 - Includes a **Python script** to automatically sort drinks alphabetically.
+- Uses **Kelson Sans** for headings and **Lato** for body text.
+- Follows **British English** spelling conventions.
 
 ## 💂️ Project Structure
 ```
@@ -37,9 +39,11 @@ Simply open `Drink_List.html` in any modern web browser.
 - Run `sorting_script.py` to sort the drinks and save them into `sorted_drinks.json`.
 - Refresh the page to see changes instantly.
 
-## 🛠 Customization
-- To **change colors**, update the `categoryColors` array in `script.js`.
+## 🛠 Customisation
+- To **change colours**, update the `categoryColours` array in `script.js`.
 - To modify styling, edit `styles.css`.
+- Ensure the typography follows the **Kelson Sans** font for headings and **Lato** for body text.
+- Follow **British English** spelling conventions (e.g., `colour` instead of `color`, `centre` instead of `center`).
 
 ---
 Created with ❤️ by **ESN Leonardo Kortrijk**
